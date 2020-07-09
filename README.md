@@ -10,7 +10,12 @@ string json = "{\"teststring\": \"Hello World!\"}";
 BsynObject bsynobj = new BsynObject(json);
 ```
 
-If you then want to get a value out of the object, you can simple call one of the [get methods](#get-methods)
+If you then want to get a value out of the object, you can simple call one of the [get methods](#get-methods).
+This could be done like this:
+```c#
+Console.WriteLine(bsynobj.GetString("teststring"));
+```
+> Output: Hello World!
 
 ### Get methods
 ```c#
