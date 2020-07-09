@@ -1,0 +1,20 @@
+{
+    "teststring": "string",
+    "testint": 1,
+    "testfloat": 1.5,
+    "teststringarray": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "testintarray": [
+        1,
+        2,
+        3
+    ],
+    "testfloatarray": [
+        1.5,
+        2.5,
+        3.5
+    ]
+}
