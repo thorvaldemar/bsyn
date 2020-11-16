@@ -59,6 +59,7 @@ string json = bsynEncode.stringified;
 Console.WriteLine(json);
 ```
 > Output: {\"firstName\":"Elon",\"lastName\":"Musk",\"age\":49,\"bankAmountInMil\":3.9}
+
 But you can also nest the values:
 ```c#
 Bsyn elonMuskObj = new Bsyn();
